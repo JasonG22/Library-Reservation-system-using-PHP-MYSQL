@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap'); /*imported font*/ 
+     
+ /* header styling accross all pages */
+header {
+    width: 80%; /*  header width to 80% of  page */
+    background-color: beige; /* beige background color for the header */     
+    padding: 20px 0; /*make header stretch longer vertically*/
+    margin: 0 auto; /* centers the header */
+    text-align: center; /* center  text inside the header */
+    border-radius: 100px; /*rounded corners*/
+}
+/*next few styling is for links in header*/
+nav ul {
+
+    display: flex; /* display links in a row  */
+    justify-content: space-around; /* distribute links evenly across header */
+}
+
+nav ul li{
+    display: inline; /* display list items horizontally */
+    
+}
+
+nav ul li a {
+    text-decoration: none; /* remove underline from links */
+    color: black; /* black text color for links */
+    font-size: 16px; /* set font size */
+    padding: 10px 15px; /* add padding to links to space them  out */
+}
+/*makes links turn green when hovering over*/
+nav ul li a:hover {
+    color: green; 
+}
+
+
+
+/*Body styling*/
+/*common accross all*/
+html, body {
+    height:100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+
+.login_body {
+    text-align: center;
+    font-family:'Autowide',sans-serif; /*from imported font */
+    background-image: url("../Website.library/CSS/abstract-blurred-public-library-interior-space-blurry-room-with-bookshelves-by-defocused-effect-use-for-background-or-backdrop-in-abstract-blurred-publicbusiness-or-education-concepts-generative-ai-photo.jpg");
+    background-size: cover;  /*makes backround image not repeaet itself*/ 
+    color: black;
+    font-size: larger;
+}
+/*make links black */
+.login_body a {
+    color: black;
+}
+/*these following declorations are common for each pages body*/
+.register_body{
+    text-align: center; 
+    font-family:'Autowide',sans-serif; /*imported google font*/
+    font-size: larger;
+    background-image: url("../Website.library/CSS/line-professional-frame-blue-square-shape-business-powerpoint-background_9c874dd0f4__960_540.avif");/*copyright free image from google*/
+    background-size: cover;
+    padding-bottom: 50px;
+}
+.registered_body{
+    text-align: center;
+    font-family:'Autowide',sans-serif;
+    font-size: larger;
+    background-image: url("../Website.library/CSS/line-professional-frame-blue-square-shape-business-powerpoint-background_9c874dd0f4__960_540.avif");
+    background-size: cover;
+}
+.registered_links a  {
+    text-align: center;
+    font-size: larger;
+    
+}
+
+.search_body{
+    text-align: center;
+    font-family:'Autowide',sans-serif;
+    font-size: larger;
+    background-image: url("../Website.library/CSS/line-professional-frame-blue-square-shape-business-powerpoint-background_9c874dd0f4__960_540.avif");
+    background-size: cover;
+    padding-bottom: 50px; /*prevent footer from covering page*/
+}
+.after_reserved_body{
+    text-align: center;
+    font-family:'Autowide',sans-serif;
+    font-size: larger;
+    background-image: url("../Website.library/CSS/line-professional-frame-blue-square-shape-business-powerpoint-background_9c874dd0f4__960_540.avif");
+    background-size: cover;
+}
+
+.reserved_body{
+    text-align: center;
+    font-family:'Autowide',sans-serif;
+    font-size: larger;
+    background-image: url("../Website.library/CSS/line-professional-frame-blue-square-shape-business-powerpoint-background_9c874dd0f4__960_540.avif");
+    background-size: cover;
+}
+
+/*Comon footer styling accross all pages*/
+.footer {
+    background-color: rgba(0, 0, 0, 0.7); /* Black with 70% transparency */
+    color: white; /*text color*/
+    text-align: center;
+    padding: 10px 0; /*positioning of text*/
+    width: 100%; /*make it strecth accross the screen */
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    
+    /* to make it always stay at the bottom */
+    bottom: 0;
+    position: fixed;
+    margin-top: auto;
+    }
+
+   

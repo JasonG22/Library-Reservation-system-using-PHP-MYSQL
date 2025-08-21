@@ -1,4 +1,4 @@
-PHP Book Reservation System
+PHP Book Reservation System ( Screenshots of Website in PDF )
 
 This project is a web-based book reservation system developed using PHP and MySQL. It allows users to register an account, log in, search for books, make reservations, and manage their reserved books. The system was designed with a focus on user authentication, database interaction, and clean session handling.
 
